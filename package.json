@@ -4,11 +4,7 @@
   "type": "module",
   "version": "0.0.0",
   "scripts": {
-<<<<<<< HEAD
     "start": "react-scripts start",
-=======
-    "start": "node server.js",
->>>>>>> e92b33a (update2.0)
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
