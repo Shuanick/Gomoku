@@ -213,6 +213,10 @@
       }
     };
 
+    // const restart = ()=>{
+    //   window.location.reload();
+    // }
+
     useEffect(() => {
       if (winner !== null) {
         const timer = setTimeout(() => {

@@ -7,7 +7,7 @@ function App() {
   const [move, setMove] = useState(null);
 
   useEffect(() => {
-    const ws = new WebSocket('ws://nick-gomoku-7385f589bd87.herokuapp.com/');
+    const ws = new WebSocket('ws://localhost:3001/');
   
     ws.addEventListener('open', () => {
       console.log('WebSocket connection opened');
